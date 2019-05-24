@@ -1,1 +1,3 @@
-# Practice-C
+# Practice
+☺ C
+☻ Python
