@@ -1,0 +1,25 @@
+<html>
+
+<head>
+
+	<script type="text/javascript" src="Event.js"></script>
+
+</head>
+
+<body onload="page_load()" ondblclick="alert()" oncontextmenu="event.preventDefault()">
+
+	<form method="get" action="login.php" onsubmit="validate()">
+
+		<input type="text" id="txt1" onblur="txt1_blur()" onkeyup="txt1_keyup(event)" onkeydown="txt1_keydown(event)" />
+		<input type="text" id="txt2" onfocus="txt2_focus()" onmouseover="txt2_mouseover(this)"
+			onmouseout="txt2_mouseout(this)" />
+		<input type="submit" />
+
+	</form>
+	<br />
+
+	<span id="counter">0</span>
+
+</body>
+
+</html>
