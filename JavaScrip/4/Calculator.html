@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="CalStyle.css">
+    <script type="text/javascript" src="CalFunctions.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <div class="cal">
+        <div class="lcd">
+            <div class="numPanel">
+                132456789
+            </div>
+        </div>
+        <div class="bottons">
+            <div class="delrow">
+                <div><button type="button" class="calDelButton">Del</button></div>
+                <div><button type="button" class="calDelButton">/</button></div>
+                <div><button type="button" class="calDelButton">*</button></div>
+                <div><button type="button" class="calDelButton">-</button></div>
+            </div>
+            <div class="numpe">
+                <div class="numc">
+                    <div><button onclick="one()" type="button" class="calButton">7</button></div>
+                    <div><button type="button" class="calButton">8</button></div>
+                    <div><button type="button" class="calButton">9</button></div>
+                    <div><button type="button" class="calButton">4</button></div>
+                    <div><button type="button" class="calButton">5</button></div>
+                    <div><button type="button" class="calButton">6</button></div>
+                    <div><button type="button" class="calButton">1</button></div>
+                    <div><button type="button" class="calButton">2</button></div>
+                    <div><button type="button" class="calButton">3</button></div>
+                    <div><button type="button" class="calButton">0</button></div>
+                    <div><button type="button" class="calButton">.</button></div>
+                    <div><button type="button" class="calButton">C</button></div>
+                </div>
+                <div class="pe">
+                    <div><button onclick="sum()" type="button" class="calPEButton">+</button></div>
+                    <div><button type="button" class="calPEButton">=</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="display"><input type="text" readonly size="20" id="d"></div>
+        <div class="keys">
+            <p>
+                <html>
+
+                <body onload="digital_clock()" bgcolor=lightgreen>
+                    <center>
+                        <div style="border:lightblack 2px solid;width:100;background-color:#bccd95">
+                            <b id=hours> </b> &nbsp;:&nbsp;
+                            <b id=minutes> </b>&nbsp;:&nbsp;
+                            <b id=seconds> </b>
+                        </div>
+                    </center>
+                </body>
+
+                </html><input type="button" class="button gray" value="mrc" onclick='c("Calculator Created...")'><input
+                    type="button" class="button gray" value="m-"
+                    onclick='c("................by................")'><input type="button" class="button gray"
+                    value="m+" onclick='c("Nanzige Mahawuya.")'><input type="button" class="button pink" value="/"
+                    onclick='v("/")'>
+            </p>
+            <p><input type="button" class="button black" value="7" onclick='v("7")'><input type="button"
+                    class="button black" value="8" onclick='v("8")'><input type="button" class="button black" value="9"
+                    onclick='v("9")'><input type="button" class="button pink" value="*" onclick='v("*")'></p>
+            <p><input type="button" class="button black" value="4" onclick='v("4")'><input type="button"
+                    class="button black" value="5" onclick='v("5")'><input type="button" class="button black" value="6"
+                    onclick='v("6")'><input type="button" class="button pink" value="-" onclick='v("-")'></p>
+            <p><input type="button" class="button black" value="1" onclick='v("1")'><input type="button"
+                    class="button black" value="2" onclick='v("2")'><input type="button" class="button black" value="3"
+                    onclick='v("3")'><input type="button" class="button pink" value="+" onclick='v("+")'></p>
+            <p><input type="button" class="button black" value="0" onclick='v("0")'><input type="button"
+                    class="button black" value="." onclick='v(".")'><input type="button" class="button black" value="C"
+                    onclick='c("")'><input type="button" class="button orange" value="=" onclick='e()'></p>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

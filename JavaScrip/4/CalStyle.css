@@ -1,0 +1,220 @@
+.cal {
+    background-color: lavender;
+    width: 45%;
+    height: 90%;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3%;
+}
+
+.lcd {
+    height: 25%;
+    display: grid;
+    justify-content: center;
+}
+
+.numPanel {
+    font-size: 65px;
+    text-align: left;
+    background-color: olive;
+    height: 90%;
+    width: 560px;
+    justify-content: center;
+    display: grid;
+    margin: auto;
+    border-radius: 3%;
+}
+
+.bottons {
+    background-color: darkgray;
+    height: 75%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+    justify-content: center;
+    border-radius: 3%;
+}
+
+.delrow {
+    background-color: rgb(182, 155, 3);
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+    justify-content: center;
+    border-radius: 3%;
+}
+
+.numpe {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 100%;
+    justify-content: center;
+    border-radius: 3%;
+}
+
+.numc {
+    background-color: rgb(43, 144, 226);
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 25% 25% 25% 25%;
+    justify-content: center;
+    border-radius: 3%;
+    border: 5px;
+}
+
+.pe {
+    background-color: rgb(179, 4, 27);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    border-radius: 3%;
+}
+
+.calButton {
+    font-size: 65px;
+    height: 23%;
+    width: 95%;
+    border: 20px;
+    border-radius: 14%;
+    justify-content: center;
+    margin-left: 3%;
+    margin-right: 2%
+}
+
+.calDelButton {
+    font-size: 65px;
+    height: 90%;
+    width: 90%;
+    border: 20px;
+    margin: 2px;
+    border-radius: 14%;
+    justify-content: center;
+    margin-left: 4%;
+    margin-right: 3%
+}
+
+.CALPEBUTTON {
+    font-size: 65px;
+    height: 47%;
+    width: 92%;
+    border: 20px;
+    margin: 2px;
+    border-radius: 14%;
+    justify-content: center;
+    margin-left: 3%;
+    margin-right: 5%
+}
+
+
+
+
+
+
+
+body {
+    background-color: darkblue;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.box {
+    background-color: #3d4543;
+    height: 340px;
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+    top: 80px;
+    left: 40%;
+}
+
+.display {
+    background-color: #222;
+    width: 220px;
+    position: relative;
+    left: 15px;
+    top: 20px;
+    height: 40px;
+}
+
+.display input {
+    position: relative;
+    left: 2px;
+    top: 2px;
+    height: 35px;
+    color: black;
+    background-color: #bccd95;
+    font-size: 21px;
+    text-align: right;
+}
+
+.keys {
+    position: relative;
+    top: 15px;
+}
+
+.button {
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 17px;
+    cursor: pointer;
+    border-top: 2px solid transparent;
+}
+
+.button.gray {
+    color: white;
+    background-color: #6f6f6f;
+    border-bottom: black 2px solid;
+    border-top: 2px #6f6f6f solid;
+}
+
+.button.pink {
+    color: black;
+    background-color: #ff4561;
+    border-bottom: black 2px solid;
+}
+
+.button.black {
+    color: white;
+    background-color: 303030;
+    border-bottom: black 2px solid;
+    border-top: 2px 303030 solid;
+}
+
+.button.orange {
+    color: black;
+    background-color: FF9933;
+    border-bottom: black 2px solid;
+    border-top: 2px FF9933 solid;
+}
+
+.gray:active {
+    border-top: black 2px solid;
+    border-bottom: 2px #6f6f6f solid;
+}
+
+.pink:active {
+    border-top: black 2px solid;
+    border-bottom: #ff4561 2px solid;
+}
+
+.black:active {
+    border-top: black 2px solid;
+    border-bottom: #303030 2px solid;
+}
+
+.orange:active {
+    border-top: black 2px solid;
+    border-bottom: FF9933 2px solid;
+}
+
+p {
+    line-height: 10px;
+}
