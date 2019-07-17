@@ -1,0 +1,9 @@
+
+<!-- Put this in the HTML section in JSFiddle! -->
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+<div id="app">
+	<h1 v-once>{{ title }}</h1>
+	<p>{{ sayHello() }} - <a v-bind:href="link">GOOGLE</a></p>
+	<p v-html="flink"></p>
+</div>
