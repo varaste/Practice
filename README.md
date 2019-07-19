@@ -1,4 +1,10 @@
 # Practice
-C
+C\n
+
+
+
 Python
+
+
+
 JavaScript
