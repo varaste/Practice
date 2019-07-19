@@ -1,10 +1,8 @@
 # Practice
-C\n
-
-
+C
 
 Python
 
-
-
 JavaScript
+
+Vue.JS
