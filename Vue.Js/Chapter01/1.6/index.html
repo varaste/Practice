@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    {{'arya varaste' | capitalize}}
+    <br>
+    {{'varaste arya' | lastfirst}}
+  </div>
+
+  <script>
+    Vue.filter('lastfirst',function(string1){
+      var capfirst = string1.charAt(2).toUpperCase()
+      var Akharebarat = string1.slice(3,string1.length)
+      var Avaleebarat = string1.slice(0,2)
+      return Avaleebarat + capfirst + Akharebarat
+    })
+    
+    Vue.filter('capitalize', function (string) {
+      var capitalFirst = string.charAt(0).toUpperCase()
+      var noCaseTail = string.slice(1, string.length)
+      return capitalFirst + noCaseTail
+    })
+    new Vue({el:'#app'})
+  </script>
+</body>
+</html>
