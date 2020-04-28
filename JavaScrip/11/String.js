@@ -21,6 +21,9 @@ alert(txt.toUpperCase());
 //Wrapper Methods
 alert(txt.anchor('top'));
 
+
+
+
 function employee(name, job, born) {
 	this.name = name;
 	this.job = job;
