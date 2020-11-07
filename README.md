@@ -6,3 +6,9 @@ Python
 JavaScript
 
 Vue.JS
+
+Java
+
+HTML
+
+CSS
